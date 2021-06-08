@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "movies_list": {
+      "$uid": {
+        ".read": "auth.uid === $uid",
+        ".write": "auth.uid === $uid"
+      }
+    }
+  }
+}
